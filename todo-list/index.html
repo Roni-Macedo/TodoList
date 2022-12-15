@@ -2,14 +2,15 @@
 <html lang="pt-br">
   <head>
     <link rel="icon" href="images/favicon.png" />
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Icons do fontawesome -->
     <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
-      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
       crossorigin="anonymous"
     />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/style.css" />
     <title>To do list</title>
   </head>
@@ -19,25 +20,33 @@
     </header>
     <main>
       <div class="box">
-        <input class="input-todo" type="text" placeholder="Adicionar - Todo" />
-
+        <form action="#">
+          <input
+            class="input-todo"
+            type="text"
+            name="add"
+            autofocus
+            autocomplete="off"
+            placeholder="Adicionar - Todo"
+          />
+        </form>
         <div class="box-todo">
           <fieldset class="fieldset-todo">
-            <legend>Excluir <span>X</span></legend>
+            <legend><i class="far fa-trash-alt"></i></legend>
             <p>
               Lorem ipsum dolor sit, amet consectetur adipisicing elit.
               Expedita, eaque?
             </p>
           </fieldset>
           <fieldset class="fieldset-todo">
-            <legend>Excluir <span>X</span></legend>
+            <legend><i class="far fa-trash-alt delete"></i></legend>
             <p>
               Lorem ipsum dolor sit, amet consectetur adipisicing elit.
               Expedita, eaque?
             </p>
           </fieldset>
           <fieldset class="fieldset-todo">
-            <legend>Excluir <span>X</span></legend>
+            <legend><i class="far fa-trash-alt delete"></i></legend>
             <p>
               Lorem ipsum dolor sit, amet consectetur adipisicing elit.
               Expedita, eaque? Lorem ipsum dolor sit, amet consectetur
@@ -45,10 +54,23 @@
             </p>
           </fieldset>
         </div>
-
-        <input class="input-todo" type="text" placeholder="Filtrar - Todo" />
+        <form action="#">
+          <input
+            class="input-todo"
+            type="text"
+            name="search"
+            placeholder="Filtrar - Todo"
+          />
+        </form>
       </div>
     </main>
-    <footer><small>BY Dingos</small></footer>
+    <footer>
+      <p>
+        BY
+        <i class="fa-thin fa-registered"></i>
+        Dingos
+      </p>
+    </footer>
+    <script src="app.js"></script>
   </body>
 </html>
