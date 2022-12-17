@@ -20,7 +20,7 @@
     </header>
     <main>
       <div class="box">
-        <form action="#">
+        <form class="add-todos" action="#">
           <input
             class="input-todo"
             type="text"
@@ -32,33 +32,36 @@
         </form>
         <div class="box-todo">
           <fieldset class="fieldset-todo">
-            <legend><i class="far fa-trash-alt"></i></legend>
+            <legend class="far fa-trash-alt delete"></legend>
             <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-              Expedita, eaque?
+              Assistir serie da netflix
             </p>
           </fieldset>
           <fieldset class="fieldset-todo">
-            <legend><i class="far fa-trash-alt delete"></i></legend>
+            <legend class="far fa-trash-alt delete"></legend>
             <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-              Expedita, eaque?
+              Correr 2 kilometros
             </p>
           </fieldset>
           <fieldset class="fieldset-todo">
-            <legend><i class="far fa-trash-alt delete"></i></legend>
+            <legend class="far fa-trash-alt delete"></legend>
             <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-              Expedita, eaque? Lorem ipsum dolor sit, amet consectetur
-              adipisicing elit. Expedita, eaque?
+              Visitar a titia
+            </p>
+          </fieldset>
+          <fieldset class="fieldset-todo">
+            <legend class="far fa-trash-alt delete"></legend>
+            <p>
+              Ir no dentista
             </p>
           </fieldset>
         </div>
-        <form action="#">
+        <form class="filter-todo">
           <input
             class="input-todo"
             type="text"
             name="search"
+            autocomplete="off"
             placeholder="Filtrar - Todo"
           />
         </form>
@@ -71,6 +74,6 @@
         Dingos
       </p>
     </footer>
-    <script src="app.js"></script>
+    <script src="./script/app.js"></script>
   </body>
 </html>

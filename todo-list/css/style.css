@@ -89,6 +89,7 @@ main {
   /* border-bottom: 1px solid var(--color-border); */
   border-radius: 10px;
   overflow: auto;
+
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -147,6 +148,9 @@ main {
   color: var(--color-header);
 }
 
+.hidden {
+  display: none;
+}
 footer {
   background-color: var(--color-footer);
   width: 100vw;
