@@ -15,3 +15,6 @@
 * Adicionar
 * Apagar
 * Filtrar
+
+## Versão 1.0
+proxima versão adicionar Data e Hora.
