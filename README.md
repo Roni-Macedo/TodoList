@@ -6,4 +6,4 @@
 *   Apagar
 *   Filtrar
 
-<img src=”todo-list/image/Tela-desktop.png”>
+<img src=”https://user-images.githubusercontent.com/87907917/208271011-421bd3a5-74c2-402b-9909-c8f4e21a9a98.png”>
