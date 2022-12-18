@@ -17,4 +17,7 @@
 * Filtrar
 
 ## Versão 1.0
-proxima versão adicionar Data e Hora.
+
+proxima versão {c:red}adicionar Data e Hora.{/c}
+
+Este é um {c:#B81365}texto colorido com hexadecimal{/c} 
